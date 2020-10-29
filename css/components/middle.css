@@ -1,0 +1,31 @@
+.middle img{
+  width: auto;
+  height: 100px;
+  object-fit: cover;
+}
+.horizontal-cards{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card{
+ /*  border: 2px solid red; */
+  width: 190px;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  border-radius: 9px;
+  transition: 0.5s;
+}
+.card img{
+  border-radius: 16px;
+}
+.middle h2{
+  text-align: center;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
